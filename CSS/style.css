@@ -1,0 +1,238 @@
+/*NavBar*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#eae9e9;
+   
+  }
+ 
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:#315b96;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+  }
+  li a:hover {
+    background-color: #233567;
+    color:white;
+  }
+
+  .button {
+    background-color: #233567; 
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-right:10px; ;
+margin-top: 8px;
+font-family: 'Coming Soon', cursive;
+  }
+  /*Title SECTION*/
+  #tit{
+    height:600px;
+    background-color:#eae9e9;
+   
+  }
+
+
+  
+  .brand
+  {
+    margin-bottom: 15px;
+    font-family: 'Patrick Hand SC', cursive;
+    color: #233567;
+  }
+  .brand1
+  {
+    position: relative;
+
+    font-family: 'Patrick Hand SC', cursive;
+    color: #233567;
+    font-size: 25px;
+  }
+ 
+  .title
+  {
+    color: #233567;
+ 
+    margin-top:50px;
+    height:350px;
+    width:450px;
+    
+  
+    padding:20px 20px;
+    margin-left: 150px;
+    font-size:40px; 
+    border-radius:30px;
+  }
+ .title-text
+ {
+    font-size:50px; 
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #1f3c88;
+ }
+ .btn1
+ {
+    background-color: #ceddef; 
+    border: none;
+    color: #1f3c88;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-right:10px; ;
+margin-top: 5px;
+font-family: 'Coming Soon', cursive;
+ }
+ .btn2
+ {
+    background-color:white ; 
+    border: none;
+    color: #233567;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-right:10px; ;
+margin-top: 5px;
+font-family: 'Coming Soon', cursive;
+ }
+ .pic
+ {
+    
+    position:absolute;
+   
+    right:11%;
+   bottom:30%;
+   top:14%;
+   border-radius:0px;
+ }
+ /*INFO SECTION*/
+ .mid
+ {
+     background-color: #ceddef;
+    
+ }
+ .info
+ {
+     float:right;
+     font-size: 40px;
+    margin-top: 160px;
+    margin-right: 90px;
+    font-family: 'Patrick Hand SC', cursive;
+    color:#233567;
+  
+ }
+/*TESTIMONIALS*/
+ #testimonials
+ {
+     padding:5% 15%;
+     background-color:#233567;
+     color:#fff; 
+     text-align: center;
+ }
+ .testimonial-image
+{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+  
+}
+.testimonial-text
+{
+    font-size:3rem;
+    line-height:1.5;
+    font-family: 'Quicksand', sans-serif;
+}
+/*Search*/
+.test
+{
+ 
+
+ background-repeat:no-repeat;
+ background-size: cover;
+ 
+ 
+}
+
+.searchbar{
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #233567;
+  color:white ;
+  border-radius: 30px;
+  padding: 10px;
+ 
+  }
+
+  .search_input{
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color:transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+  font-family: 'Quicksand', sans-serif;
+  }
+
+  .searchbar:hover > .search_input{
+  padding: 0 10px;
+  width: 450px;
+  caret-color:#233567;
+  color:white ;
+  transition: width 0.4s linear;
+  }
+
+  .searchbar:hover > .search_icon{
+    background: white;
+    color: #233567;
+    
+    }
+
+    .search_icon{
+      height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    
+   
+    }
+    /*FOOTER*/
+    #footer
+{
+    padding:7% 15%;
+    text-align: center;
+}
+.social-icon
+{
+    margin:20px 10px;
+}
+    
